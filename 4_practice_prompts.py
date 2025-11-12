@@ -20,12 +20,19 @@ print(500 + 55)
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
-
-
+cookie= "The projector"
+burn= "The window"
+kin= "The flower pot"
+print(cookie)
+print(burn)
+print(kin)
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
+print("Breanna")
+
 # Print today's date.
-# Print the name of your favorite movie.
+print("Today is november 12")
+#  Print the name of your favorite movie.
 
 # Print your name and age on separate lines using a single print() function.
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
