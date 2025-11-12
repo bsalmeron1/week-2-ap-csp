@@ -45,11 +45,11 @@ print("name", name.capitalize()) # capitalizes the variable
 print("Length of phrase:", len(phrase))  # Output: 14
 
 
-declaration_of_independence = " "
+declaration_of_independence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
 #find the first paragraph of this online
 #paste it in between the quotation marks
 #print out the length of it
-
+print(declaration_of_independence)
 
 #push it to github
 # git add .
@@ -101,8 +101,9 @@ print(cut)
 
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
+soup= " range of characters (start inclusive, end exclusive)"
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
-
+print("Characters 1 to 4:", soup[:4])
 # # Example combining everything:
 # print("Formatted Example:", (greeting + " " + name + "!").upper())
 # # Output: HELLO WORLD!
@@ -115,10 +116,11 @@ print(cut)
 # # Creating Strings: use single or double quotes
 # greeting1 = 'Hello'
 # greeting2 = "Hi there"
-
+bathroom = 'Ii was using bahtrooom'
+office= "I was in the office"
 # # Printing Strings
-# print(greeting1)
-# print(greeting2)
+print(bathroom)
+print(office)
 
 # # ----------------------------------------
 # # String Methods
