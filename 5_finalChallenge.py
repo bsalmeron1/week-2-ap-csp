@@ -8,7 +8,7 @@
 
 # I know that in the real world, we wouldn’t need to develop a software just to ask it two questions. But until we learn a bit more functionality, well, our programs are going to have to stay in the realm of simplicity. Yet if you’re just starting out, this is going to be quite a challenge.
 
-# You’re going to create Python code that asks your friend to answer two questions that require a single word each, and then displays those combined words on the screen to form a creative brand.
+# You’re going to create Python code that asks your friend to answer two questions that require a single word each, and then displays those combined words on the screen to form a creative brand!!!!
 
 # You can use any questions you want. The idea is for the outcome to be original, creative, and even funny. And if you want to add some difficulty to your challenge, I suggest you try to have the name of the beer printed in quotation marks on the screen.
 
@@ -17,3 +17,8 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+num1 = input("What is your favorite food to eat when you are sad? : ")
+animal = input("What is your meanest family member? ")
+print(f"{animal}{num1} is the best beer brand")
+

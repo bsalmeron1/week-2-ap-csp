@@ -33,10 +33,12 @@ print("Breanna")
 # Print today's date.
 print("Today is november 12")
 #  Print the name of your favorite movie.
-
-# Print your name and age on separate lines using a single print() function.
+print("Twilights my fav movie")
+# Print your name and age on separate lines using a single print() function
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
-
+age= 17
+name= "breanna"
+print(f"{name} + {age + 10 } years old" )
 ##############################################################################################################
 
 ###########################String Practice##################################
